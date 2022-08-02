@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Play:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #396EB0   ;
+    --secondary-color-dark: #733C3C;
+    --font: black;
+    --background: #B2B1B9;
+    --border: #595260;
+
+}
+
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+}
+
+body {
+    font-family: Play, Montserrat, Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    border-top: .3rem solid var(--border);
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+section {
+    margin-left: 100px;
+}
+
+h1 {
+    background-color: var(--background);
+    text-align: center;
+}
+
+h2 {
+    color: var(--secondary-color-dark);
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+}
+
+ul {
+    font-weight: bold;
+}
+
+span {
+    font-style: italic;
+}
