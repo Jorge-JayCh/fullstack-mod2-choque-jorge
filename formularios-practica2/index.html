@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios 2</title>
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <fieldset>
+          <legend>Datos Personales</legend>
+
+          <label for="nombre">Nombre :</label>
+          <input type="text" name="nombre" id="nombre" />
+          <br /><br />
+          <label for="apellidos">Apellidos :</label>
+          <input type="text" name="apellidos" id="apellidos" />
+          <br /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Datos Contacto</legend>
+          <label for="email">Email :</label>
+          <input type="email" name="email" id="email" />
+          <br /><br />
+          <label for="telefono">Teléfono :</label>
+          <input type="tel" name="telefono" id="telefono" />
+          <br /><br />
+          <label for="campus">Campus :</label>
+          <select name="campus" id="campus">
+            <option selected value="0" disabled>-- Seleccione una opción --</option>
+            <option value="1">Campus 1</option>
+            <option value="2">Campus 2</option>
+            <option value="3">Campus 3</option>
+            <option value="4">Campus 4</option>
+            <option value="5">Campus 5</option>
+          </select>
+          <br /><br />
+          <label for="mensaje">Mensaje :</label>
+          <br />
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        </fieldset>
+        <br />
+        <input type="checkbox" name="condiciones" id="condiciones" value="true"/>
+        <label for="condiciones">Acepto las condiciones</label>
+        <br /><br />
+        <input type="submit" value="Enviar" />
+      </form>
+    </main>
+  </body>
+</html>
